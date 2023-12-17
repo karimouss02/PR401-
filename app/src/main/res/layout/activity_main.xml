@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPutGrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Poner las notas"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGetHighest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Obtener la nota más alta"
+        android:layout_below="@id/btnPutGrades"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnCalculateMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Calcular la media"
+        android:layout_below="@id/btnGetHighest"
+        android:layout_marginTop="16dp"
+        android:onClick="btnCalculateMedia"/>
+
+
+    <Button
+        android:id="@+id/btnDeleteNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Borrar una nota"
+        android:layout_below="@id/btnCalculateMedia"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteAllNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Borrar todas las notas"
+        android:layout_below="@id/btnDeleteNote"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Exit"
+        android:layout_below="@id/btnDeleteAllNotes"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
